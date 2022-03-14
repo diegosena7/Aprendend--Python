@@ -1,5 +1,6 @@
 def busca_binaria(lista_ordenada, elemento_procurado):
-    primeiro_elemento_lista, ultimo_elemento_lista = 0, len(lista_ordenada) - 1
+    primeiro_elemento_lista = 0
+    ultimo_elemento_lista = len(lista_ordenada) - 1
 
     while primeiro_elemento_lista <= ultimo_elemento_lista:
         meio = (primeiro_elemento_lista + ultimo_elemento_lista) // 2
